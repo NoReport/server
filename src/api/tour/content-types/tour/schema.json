@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tours",
+  "info": {
+    "singularName": "tour",
+    "pluralName": "tours",
+    "displayName": "Tour"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "TourName": {
+      "type": "string"
+    },
+    "TourDate": {
+      "type": "date"
+    },
+    "TourSeat": {
+      "type": "string"
+    },
+    "tour_category": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::tour-category.tour-category"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tour_categories",
+  "info": {
+    "singularName": "tour-category",
+    "pluralName": "tour-categories",
+    "displayName": "Tour category",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "category_name": {
+      "type": "string"
+    }
+  }
+}
